@@ -1,0 +1,8 @@
+echo "# Catalan-Numbers" > README.md
+git pull
+cat .readme >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Alex-Tsvetanov/Catalan-Numbers-Project-for-MITE-201-Project-for-MITE-20166.git
+git push -u origin master
